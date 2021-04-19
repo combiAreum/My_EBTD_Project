@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 김아름 -->
+<!-- UserDAO 전용 Mapper: user관리 sql문 명시 -->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ebtd.www.dao.I_UserDao">
+
+	                <!-- mybatis-config.xml에 별칭설정 or Bean에 @Alias("user") -->
+	<select id="getUserList" resultType="user">
+		SELECT * FROM U
+	</select>
+	
+
+</mapper>

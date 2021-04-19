@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Mybatis 공통 환경 설정 -->
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<typeAliases>
+		<!-- <typeAlias alias = "bus" type="com.ebtd.www.bean.busBean"/> -->
+		<package name="com.ebtd.www.bean"/>
+		<package name="com.ebtd.www.entity"/>
+	</typeAliases>
+</configuration>
+
+
